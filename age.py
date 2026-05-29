@@ -15,5 +15,4 @@ if nasceu_m <= mes:
     print(nascimento_y)
 else :
     print("Você nasceu em", nascimento_y - 1)
-
-    print("Você tem", nascimento_m, "meses")
+    
