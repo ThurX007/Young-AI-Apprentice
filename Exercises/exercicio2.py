@@ -1,12 +1,14 @@
 #============Exercicio 2-A============
 
+print("Criar Usuario")
 usuario = input("Nome de usuário: ")
 senha = input("Senha: ")
 
-USUARIO_CORRETO = "ThurX"
-SENHA_CORRETA = "1331"
+print("Login")
+usuario_login = input("Nome de usuário: ")
+senha_login = input("Senha: ")
 
-if usuario == USUARIO_CORRETO and senha == SENHA_CORRETA:
+if usuario_login == usuario and senha_login == senha:
     print("Acesso Liberado!")
 else:
     print("Acesso Negado!")

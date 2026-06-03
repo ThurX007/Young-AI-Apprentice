@@ -1,9 +1,9 @@
-#name = input("Qual é o seu nome? ")
-#age = int(input("Qual é a sua idade? "))
+name = input("Qual é o seu nome? ")
+age = int(input("Qual é a sua idade? "))
 
-#print(f"Olá, {name}.")
-#print(f"Você tem {age} anos.")
-#print(f"Em 10 anos você terá {age + 10} anos.")
+print(f"Olá, {name}.")
+print(f"Você tem {age} anos.")
+print(f"Em 10 anos você terá {age + 10} anos.")
 #=========================================================================#
 
 numeros = []
