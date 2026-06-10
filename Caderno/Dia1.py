@@ -1,3 +1,8 @@
-#Hoje, dia 01/06/2026, eu consegui inciar o aprendizado de Python. Aprendi as coisas do exercicio1.py e exercicio2.py.
-#Aprendi a usar o f-string, que vem antes de escrever o que eu quero pro print. Ele é melhor pq da mais flexibilidade e é mais facil de ler, alem de n precisar usar o "+" ou a ","
-#Acabei de aprender a usar o for e o while, como eu mostro no exercicio3.py.
+r1 = int(input("Digite o valor da 1° reta: "))
+r2 = int(input("Digite o valor da 2° reta: "))
+r3 = int(input("Digite o valor da 3° reta: "))
+
+if r1 + r2 > r3 and r1 + r3 > r2 and r2 + r3 > r1:
+    print("Podem formar um triangulo")
+else:
+    print("Não podem formar um triangulo")
